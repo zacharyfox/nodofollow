@@ -1,0 +1,3 @@
+content nodofollow chrome/content/
+content nodofollow chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://nodofollow/content/nodofollowOverlay.xul

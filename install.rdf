@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$ThVoI"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="2.0"
+                   em:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{c2b1f3ae-5cd5-49b7-8a0c-2c3bcbbbb294}"
+                   em:name="NoDoFollow"
+                   em:version="1.1"
+                   em:creator="Zachary Fox"
+                   em:description="Highlights links in a document and color codes them according to follow / nofollow"
+                   em:homepageURL="http://www.zacharyfox.com"
+                   em:contributor="Thanks to lifehacker.org for their tutorial">
+    <em:targetApplication RDF:resource="rdf:#$ThVoI"/>
+  </RDF:Description>
+</RDF:RDF>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<overlay id="nodofollowOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- This imports our javascript. -->
+
+<script type="application/x-javascript" src="chrome://nodofollow/content/nodofollowOverlay.js">
+
+</script>
+
+
+<!-- This is for the right click menu. -->
+
+<popup id="contentAreaContextMenu">
+  <menuitem id="nodofollow_rightclickmenu" label="NoDoFollow" type="checkbox" insertafter="context-stop" oncommand="NoDoFollow.toggleHighlight(this);"/>
+</popup>
+
+
+<!-- This is for the Tools menu. -->
+
+<menupopup id="menu_ToolsPopup">
+    <menuitem id="nodofollow_toolspopup" insertafter="devToolsSeparator" label="NoDoFollow" type="checkbox" oncommand="NoDoFollow.toggleHighlight(this);" />
+</menupopup>
+
+
+</overlay>

@@ -1,0 +1,10 @@
+a{
+background-color:#CCCCFF !important;
+color:#000 !important;
+}
+a[rel*="nofollow"]
+{
+background-color: #ffCCCC !important;
+color: #000000 !important;
+font-weight: bold !important;
+}
